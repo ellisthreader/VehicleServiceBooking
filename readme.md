@@ -7,7 +7,9 @@ system. The folder structure, project references, and database connection have
 been pre-configured for you.
 
 Your task is to implement the business logic, data access, API endpoints, and
-tests across the existing layers.
+tests across the existing layers. 
+
+If anything is unclear, you may make reasonable assumptions.
 
 ---
 
@@ -78,6 +80,8 @@ The application will apply pending Migrations and seed data using the Data Seede
 dotnet ef database update --project ./VehicleServiceBooking.Data --startup-project ./VehicleServiceBooking.API
 ```
 
+You may have to seed your own data using the provided Data Seeder class. 
+
 ---
 
 ### 2. Application Layer
@@ -89,7 +93,7 @@ Implement Domain Transfer Objects for the Data Models:
 
 Implement the following service classes:
 
-**Whilst implementing your services, you should use libraries like AutoMapper to help make Mapping more consistent and configurable.**
+**Whilst implementing your services, you can use libraries like AutoMapper or other alternatives to help make Mapping more consistent and configurable. You may also implement your own mapping. **
 
 **`ServiceTypeService`**
 - `GetAllAsync()` — retrieve all service types and map to `ServiceTypeDto`
@@ -112,7 +116,7 @@ validation rules as `CreateAsync`.
 
 - `CancelAsync(int id)` — delegate to the repository and return the result.
 
-> You can use private helper methods for your validation logic
+> You can use private helper methods for your validation logic or other altnernatives as you see fit. 
 
 ---
 
@@ -128,7 +132,7 @@ The endpoint empty classes have been templated, you will need to make the endpoi
 
 ### 4. Tests
 
-The test class is scaffolded with the following cases — implement each one:
+Implement the following test cases:
 
 **Either NUnit or Moq can be used**
 
