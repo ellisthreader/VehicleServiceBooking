@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleServiceBooking.API", "VehicleServiceBooking.API\VehicleServiceBooking.API.csproj", "{DC98B3CF-F78A-4327-BBDC-8F282B485FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleServiceBooking.Data", "VehicleServiceBooking.Data\VehicleServiceBooking.Data.csproj", "{941C3D67-99B4-4F28-9B95-802A0F7F5622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleServiceBooking.Application", "VehicleServiceBooking.Application\VehicleServiceBooking.Application.csproj", "{D7B19207-E3A0-47E6-9B57-B140C58C68F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleServiceBooking.Tests", "VehicleServiceBooking.Tests\VehicleServiceBooking.Tests.csproj", "{1985DA88-7B3E-4042-95B4-D4D5C2F9D287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC98B3CF-F78A-4327-BBDC-8F282B485FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC98B3CF-F78A-4327-BBDC-8F282B485FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC98B3CF-F78A-4327-BBDC-8F282B485FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC98B3CF-F78A-4327-BBDC-8F282B485FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941C3D67-99B4-4F28-9B95-802A0F7F5622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941C3D67-99B4-4F28-9B95-802A0F7F5622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941C3D67-99B4-4F28-9B95-802A0F7F5622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941C3D67-99B4-4F28-9B95-802A0F7F5622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B19207-E3A0-47E6-9B57-B140C58C68F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B19207-E3A0-47E6-9B57-B140C58C68F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B19207-E3A0-47E6-9B57-B140C58C68F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B19207-E3A0-47E6-9B57-B140C58C68F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1985DA88-7B3E-4042-95B4-D4D5C2F9D287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1985DA88-7B3E-4042-95B4-D4D5C2F9D287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1985DA88-7B3E-4042-95B4-D4D5C2F9D287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1985DA88-7B3E-4042-95B4-D4D5C2F9D287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

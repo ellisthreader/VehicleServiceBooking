@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>VehicleServiceBooking.Application</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="DTOs\"/>
+        <Folder Include="Services\Interfaces\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.12"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.12"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\VehicleServiceBooking.Data\VehicleServiceBooking.Data.csproj" />
+    </ItemGroup>
+
+</Project>
